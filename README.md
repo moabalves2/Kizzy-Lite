@@ -1,3 +1,7 @@
+# Kizzy Lite — fork leve focado em Media RPC
+
+Baseado no [Kizzy original](https://github.com/dead8309/Kizzy).
+
 
 <div align="center">
     <img src="https://user-images.githubusercontent.com/68665948/207296272-d1985003-1681-4df4-b8ea-ca71f2043f89.png">

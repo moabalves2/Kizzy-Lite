@@ -32,7 +32,8 @@ import com.my.kizzy.feature_about.BuildConfig
 
 
 
-const val github_Repository = "https://github.com/dead8309/Kizzy"
+const val github_Repository = "https://github.com/moabalves2/Kizzy-Lite"
+const val github_Upstream = "https://github.com/dead8309/Kizzy"
 const val github_Release = "$github_Repository/releases"
 const val github_Issues = "$github_Repository/issues/new"
 const val github_privacy_policy = "$github_Repository/blob//master/TERMS_OF_SERVICE.md"
@@ -107,6 +108,15 @@ fun About(
                     icon = Icons.Outlined.AutoAwesome
                 ) {
                     navigateToCredits()
+                }
+            }
+            item {
+                SettingItem(
+                    title = "Based on Kizzy",
+                    description = "Original app by dead8309 (Vaibhav). Kizzy Lite is a lightweight fork focused on Media RPC.",
+                    icon = Icons.Outlined.Favorite
+                ) {
+                    openUrl(github_Upstream)
                 }
             }
             item { 
